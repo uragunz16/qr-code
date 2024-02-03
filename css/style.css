@@ -5,9 +5,48 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 66.6%;
 }
 
 body {
     box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr {
+    margin: 20rem auto;
+    max-width: 30rem;
+    border-radius: 0.9rem;
+}
+
+.qr__card{
+    width: 30rem;
+    border-radius: 0.9rem;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+
+.qr__card--content {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.qr__card--image {
+    width: 100%;
+    border-radius: 0.9rem;
+    margin-bottom: 2.5rem;
+}
+
+.qr__card--heading {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.qr__card--paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+
 }
