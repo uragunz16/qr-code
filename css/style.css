@@ -42,3 +42,12 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
 }
+
+/* special style */
+.attribution {
+    font-size: 1.5rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
